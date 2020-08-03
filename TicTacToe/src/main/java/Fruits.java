@@ -8,12 +8,13 @@
  *
  * @author Maria Ferdinand
  */
- /*
-public class Practice {
+public class Fruits {
     public static void main(String []args){
-      
-    String fName = "Sia";
-    String lName = "Bawa";
-    System.out.println("My full name is " + fName + " " + lName);
-    }
-} */
+        int mangos = 5;
+        int apples = 8;
+        int bananas = 14;
+        int total = mangos + apples + bananas;
+        System.out.println(" The total number of fruits are " + total);
+     
+    }     
+}
