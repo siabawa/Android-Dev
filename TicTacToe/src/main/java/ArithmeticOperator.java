@@ -15,14 +15,15 @@ public class ArithmeticOperator {
                  
                  
          double total = num1 + num2;   //addition
-         double diff = num2 - num1;  //subtraction
+         double diff = num2 - num1;  //subtraction             // list here the variables that you created: one of them is total, diff, product, divide
          double product = num2 * num1;   //multiplication
-         double divide = num2 / num1;
+         double divide = num2 / num1; //division
          
          
          System.out.println("The total number of arithmeticoperator are " + total);
-         System.out.println("The difference of num2 - num1 ");   //use string concatenation
-         System.out.println("The product of num2 * num1");
-         System.out.println("The quotient of num2 / num1");
+         
+         System.out.println("The difference of arithmeticoperator are " + diff );   //use string concatenation as you did for the one above, hint: use your variables for the mathematical operations to occur
+         System.out.println("The product of num2 * num1 " + product); //multiplication
+         System.out.println("The quotient of num2 / num1 " + divide); //division
          }
     }    
